@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.page-main {
+    background-image: url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1060px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    &_margin {
+        margin-top: 53px;
+        margin-bottom: 184px;
+    }
+
+    &__logo {
+        background-image: url(../img/logo.svg);
+        align-self:flex-end;
+        width: 137px;
+        height: 28px;
+        
+    }
+
+    &-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+        &__item {
+            color: white;
+            margin-left: 25px;
+
+            &_main {
+                color: white;
+                text-decoration: none;
+                border-bottom: 2px solid #65e496;
+                padding-bottom: 3px;
+            }
+        }
+    }
+}
+
+.wrap {
+    max-width: 1169px;
+    margin: 0 auto;
+}
+
+.block-book {
+    display: flex;
+    color: white;
+
+    &_margin {
+        margin-right: 55px;
+    }
+    .block-cover {
+        background-image: url(../img/good_book.png);
+        background-repeat: no-repeat;
+        width: 1100px;
+        height: 638px;
+    }
+
+    .block-text {
+
+        &__name {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        &__title {
+            font-size: 48px;
+
+            &_span {
+                font-size: 18px;
+                color: #65e496;
+                display: block;
+                font-weight: 400;
+            }
+        }
+
+        &__text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 400px;
+            line-height: 24px;
+            margin-bottom: 47px;
+        }
+
+        &__btn {
+            color: white;
+            background-color: #65e496;
+            padding: 14px 26px;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            border-radius: 3px;
+
+            &_small {
+                font-family: 'Open Sans', sans-serif;
+                font-style: italic;
+                display: block;
+                margin-top: 39px;
+            }
+        }
+    }
+}
