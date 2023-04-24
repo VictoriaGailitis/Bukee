@@ -208,6 +208,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .page__title {
+        text-align: center;
+        &_span {
+            font-size: 18px;
+            color: #65e496;
+            display: block;
+            font-weight: 400;
+        }
+    }
 }
 
 .block-about {
@@ -258,3 +268,6 @@ body {
     }
 }
 
+.page_gray {
+    background-color: #f5f6fa;
+}

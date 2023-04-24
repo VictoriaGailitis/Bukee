@@ -176,6 +176,15 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.page_flex .page__title {
+  text-align: center;
+}
+.page_flex .page__title_span {
+  font-size: 18px;
+  color: #65e496;
+  display: block;
+  font-weight: 400;
+}
 
 .block-about {
   display: flex;
@@ -212,4 +221,8 @@ body {
   padding: 14px 48px;
   font-size: 18px;
   font-family: "Roboto Slab", serif;
+}
+
+.page_gray {
+  background-color: #f5f6fa;
 }/*# sourceMappingURL=style.css.map */
